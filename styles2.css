@@ -1,0 +1,121 @@
+/* Master styles */
+body {
+  background-color: rgb(0, 54, 50);
+  margin: 0px;
+  font-family: "Play", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+/* Nav styles */
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+
+/* Portfolio styles */
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.portfolio-img-background {
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.portfolio-item-wrapper {
+  border-style: solid;
+  border-color: rebeccapurple
+  margin: 0 auto;
+}
+
+.img-text-wrapper {
+  align-content: center;
+  width: 25%;
+  border-style: solid;
+  border-color: blue;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo-wrapper {
+  filter: invert(100%);
+  width: 50%;
+  margin: auto;
+}
+
+.img-text-wrapper:hover .subtitle {
+  font-weight: 600;
+  color: white;
+}
+
+.img-darken {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+/*About page*/
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-img-wrapper img {
+  width: 100%;
+}
+
+.profile-content-wrapper {
+  padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+  color: red;
+}

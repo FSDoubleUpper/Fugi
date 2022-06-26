@@ -34,18 +34,14 @@ body {
   width: 100%;
 }
 
-.portfolio-item-wrapper {
-  height: 200px;
-  border-style: solid;
-  border-color: blueviolet;
-}
-
 .img-text-wrapper {
   display: flex;
   flex-direction: column;
+  height: 300px;
   align-items: center;
+  border-style: dashed;
 }
 
-img {
-  height: 100px;
+.portfolio-img-background {
+  height: 300px;
 }
