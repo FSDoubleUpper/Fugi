@@ -30,18 +30,19 @@ body {
 }
 /*main*/
 .content-wrapper {
-  margin: auto;
-  width: 100%;
-}
-
-.img-text-wrapper {
   display: flex;
   flex-direction: column;
-  height: 300px;
-  align-items: center;
-  border-style: dashed;
 }
 
 .portfolio-img-background {
+  background-size: cover;
+  background-position: center center;
+  min-height: 25%;
+  width: fill;
   height: 300px;
+}
+
+.iphoto {
+  height: 100px;
+  filter: invert(50%) sepia(100%);
 }
