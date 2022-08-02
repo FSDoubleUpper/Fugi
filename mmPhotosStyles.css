@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.container {
+    max-height: 100vh;
+}
+
+.attributes {
+    display: flex;
+    border: 1px dashed teal;
+    width: 25vw;
+    height: 100vw;
+}
+
+.attributes > * {
+    display: flex;
+    flex-direction: column;
+}
+
+.view {
+    display: flex;
+    justify-content: space-between;
+    max-height: 40vh;
+    max-width: 100vw;
+}
+
+
+.viewSelected {
+    border: 1px dashed rgb(146, 255, 146);
+    width: 50vw;
+}
+
+.viewSelected img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.viewSelectedData {
+    border: 1px dashed gray;
+    width: 25vw;
+}
+
+.gallery {
+    border: 1px dashed red;
+    min-height: 60vh;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>mmPhotos</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" 
+              rel="stylesheet">
+        <link rel="stylesheet" href="mmPhotosStyles.css">
+    </head>
+    <body>
+        <div class="container">
+            <!--attributes-->
+            <div class="attributes">
+                <form name="mmPhotos" action="" method="get">
+                    <div class="sensor">
+                        Sensor Size
+                        <select>
+                            <option value="APS-C">APS-C</option>
+                            <option value="Full Frame">Full Frame</option>
+                        </select>
+                    </div>
+                    <div class="mm">mm <input type="m" name="mmTextBox" value="50"></div>
+                    <div class="fNumber">F Number <input Type="text" name="fTextBox" value="1.8"></div>    
+                    <input type="button" name="button" Value="Search" onClick="testResults(this.form)">
+                </form>
+            </div>
+            <!--view-->
+            <div class="view">
+                <div class="viewSelected"><img src="images/bg-photo.jpg"></div>
+                <div class="gallery">gallery</div>
+            </div>
+            <!--data-->
+            <div class="viewSelectedData">viewSelectedData</div>
+        </div>
+    </body>
+</html>
