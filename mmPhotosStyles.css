@@ -1,35 +1,56 @@
 body {
     margin: 0px;
-    overflow: hidden;
 }
 
 .container {
+    display: flex;
     max-height: 100vh;
 }
+
+
+/*attributes*/
 
 .attributes {
     display: flex;
     border: 1px dashed teal;
     width: 25vw;
-    height: 100vw;
+    height: 50vw;
 }
 
 .attributes > * {
     display: flex;
     flex-direction: column;
+    border: 1px dashed white;
+    width: 100%;
 }
+
+.attr {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.btnSearch {
+    width: 100px;
+}
+
+/*view*/
 
 .view {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    max-height: 40vh;
+    height: 35vh;
     max-width: 100vw;
 }
 
 
+/*data*/
+
 .viewSelected {
     border: 1px dashed rgb(146, 255, 146);
     width: 50vw;
+    max-height: 50vh;
 }
 
 .viewSelected img {
@@ -45,7 +66,10 @@ body {
     width: 25vw;
 }
 
+
+/*gallery*/
+
 .gallery {
     border: 1px dashed red;
-    min-height: 60vh;
+    min-height: 36vh;
 }

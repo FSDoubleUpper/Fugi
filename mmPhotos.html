@@ -13,16 +13,65 @@
             <!--attributes-->
             <div class="attributes">
                 <form name="mmPhotos" action="" method="get">
-                    <div class="sensor">
+                    <div class="attr search">Search 
+                        <input 
+                            type="attr button" 
+                            name="button" 
+                            Value="Search" 
+                            onClick="testResults(this.form)">
+                    </div>
+                    <button class="btnSearch" type="submit">Search</button>
+                    <div class="attr sensor">
                         Sensor Size
                         <select>
                             <option value="APS-C">APS-C</option>
                             <option value="Full Frame">Full Frame</option>
                         </select>
                     </div>
-                    <div class="mm">mm <input type="m" name="mmTextBox" value="50"></div>
-                    <div class="fNumber">F Number <input Type="text" name="fTextBox" value="1.8"></div>    
-                    <input type="button" name="button" Value="Search" onClick="testResults(this.form)">
+                    <div class="attr mm">mm 
+                        <input 
+                            type="text" 
+                            name="mmTextBox" 
+                            value="50">
+                    </div>
+                    <div class="attr fNumber">F Number 
+                        <input 
+                            Type="text" 
+                            name="fTextBox" 
+                            value="1.8">
+                    </div>
+                    <div class="attr shootingHeight">Shooting Height 
+                        <select>
+                            <option value="anyHeight">Any</option>
+                            <option value="standing">Standing</option>
+                            <option value="chest">Chest</option>
+                            <option value="hip">Hip</option>
+                            <option value="knee">Knee</option>
+                            <option value="ground">Ground</option>
+                        </select>
+                    </div>
+                    <div class="attr shootingStyle">Shooting Style 
+                        <select>
+                            <option value="anyStyle">Any</option>
+                            <option value="portraitHeadshot">Portrait Headshot</option>
+                            <option value="portraitShoulder">Portrait Shoulder</option>
+                            <option value="portraitHalf">Portrait Half</option>
+                            <option value="portraitFull">Portrait Full</option>
+                            <option value="portraitEnvironmentalHalf">Portrait Environmental Half</option>
+                            <option value="portraitEnvironmentalFull">Portrait Environmental Full</option>
+                            <option value="landscape">Landscape</option>
+                            <option value="cityscape">Cityscape</option>
+                            <option value="seascape">Seascape</option>
+                            <option value="product">Product</option>
+                        </select>
+                    </div>
+                    <div class="attr shootingTime">Shooting Time
+                        <select>
+                            <option value="anytime">Any</option>
+                            <option value="daytime">Day Time</option>
+                            <option value="nighttime">Night Time</option>
+                        </select>
+                    </div>
                 </form>
             </div>
             <!--view-->
