@@ -1,6 +1,6 @@
-import './App.css';
 import React from 'react';
-import Nav from './components/Nav'
+import Nav from './components/index/Nav'
+
 function App() {
   return (
     <div className="App">

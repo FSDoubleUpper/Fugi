@@ -1,0 +1,47 @@
+* {
+  background-color: rgb(26, 48, 48);
+  color: tan;
+  font-family: 
+  'Barlow Condensed',
+  'Segoe UI', 
+  Tahoma, 
+  Geneva, 
+  Verdana, 
+  sans-serif;
+}
+
+@keyframes linkHover {
+  to {color: tan;}
+}
+
+a {
+  color: #946c1a;
+  text-decoration: none;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.nav-links {
+  padding: 25px;
+}
+
+.nav-links a:hover {
+  animation-name: linkHover;
+  animation-duration: 1s;
+}
+
+.nav-home {
+  margin-right: 25px;
+}
+
+
+.nav-title {
+  margin-left: auto;
+  padding-right: 25px;
+}
