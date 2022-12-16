@@ -1,14 +1,18 @@
-import React from 'react';
-import Nav from './components/index/Nav'
-
+import React, { useState } from "react";
+import Main from "./pages/Main";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Nav />
-      </header>
-    </div>
-  );
+    const [light, setLight] = useState(false);
+    const handleLight = () => {
+        setLight((p) => !p);
+    };
+
+    const isLight = light ? " light-mode" : "";
+
+    return (
+        <div className={`app${isLight}`}>
+            <Main theme={light} isLight={isLight} handleLight={handleLight} />
+        </div>
+    );
 }
 
 export default App;
