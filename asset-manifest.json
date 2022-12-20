@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/yaolee/static/css/main.1efc177a.css",
-    "main.js": "/yaolee/static/js/main.3769b2d8.js",
+    "main.js": "/yaolee/static/js/main.44ada986.js",
     "index.html": "/yaolee/index.html",
-    "main.1efc177a.css.map": "/yaolee/static/css/main.1efc177a.css.map",
-    "main.3769b2d8.js.map": "/yaolee/static/js/main.3769b2d8.js.map"
+    "main.44ada986.js.map": "/yaolee/static/js/main.44ada986.js.map"
   },
   "entrypoints": [
-    "static/css/main.1efc177a.css",
-    "static/js/main.3769b2d8.js"
+    "static/js/main.44ada986.js"
   ]
 }
