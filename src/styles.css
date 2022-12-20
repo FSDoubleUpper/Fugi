@@ -12,15 +12,22 @@
     background-color: rgb(26, 48, 48);
 }
 
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 a {
-    color: #6c4f14;
+    color: tan;
     text-decoration: none;
 }
 
 .nav-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     font-weight: bolder;
     font-size: 1.5em;
 }
@@ -29,20 +36,8 @@ a {
     padding: 25px;
 }
 
-.nav-links a {
-    transition: color 0.25s ease-in;
-}
-
-.nav-links.light-mode a:hover {
-    color: teal;
-}
-
 .nav-links img {
     background-color: transparent;
-}
-
-.nav-links a:hover {
-    color: tan;
 }
 
 .nav-home {
@@ -58,10 +53,6 @@ a {
     transition: filter 1s ease-in;
 }
 
-.nav-button:hover {
-    filter: invert(1);
-}
-
 .nav-title {
     padding-right: 25px;
 }
@@ -75,10 +66,6 @@ a {
     color: teal;
 }
 
-.nav-links .light-mode:hover {
-    transition: color 0.25s ease-in;
-}
-
 .choices-list {
     display: flex;
     flex-direction: column;
@@ -89,14 +76,15 @@ a {
     font-size: 4em;
     background-color: transparent;
     position: absolute;
-    color: transparent;
-    letter-spacing: 25px;
+    color: white;
+    letter-spacing: 8px;
+    text-shadow: 3px 3px black;
     transition: color 0.25s, letter-spacing 0.25s ease-in;
 }
 
 .choices-img {
     width: 100vw;
-    height: 30vh;
+    height: 28vh;
     object-fit: cover;
     transition: height 0.25s ease-in;
 }
@@ -107,11 +95,49 @@ a {
     align-items: center;
 }
 
-.choices-project:hover {
-    cursor: pointer;
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
-.choices-project:hover .choices-text {
-    color: white;
-    letter-spacing: 5px;
+@media only screen and (min-width: 600px) {
+    .nav-links a {
+        transition: color 0.25s ease-in;
+    }
+
+    a {
+        color: #6c4f14;
+        text-decoration: none;
+    }
+
+    .nav-links.light-mode a:hover {
+        color: teal;
+    }
+    .nav-links a:hover {
+        color: tan;
+    }
+
+    .nav-button:hover {
+        filter: invert(1);
+    }
+
+    .nav-links .light-mode:hover {
+        transition: color 0.25s ease-in;
+    }
+
+    .choices-project:hover {
+        cursor: pointer;
+    }
+
+    .choices-text {
+        color: transparent;
+        text-shadow: none;
+    }
+
+    .choices-project:hover .choices-text {
+        color: white;
+        letter-spacing: 5px;
+    }
+
 }

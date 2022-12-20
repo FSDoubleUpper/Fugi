@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Nav = (props) => {
     return (
@@ -18,6 +18,7 @@ const Nav = (props) => {
                         ? "./icons/theme/light.png"
                         : "./icons/theme/dark.png"
                 }
+                alt="light dark mode button"
                 onClick={props.handleLight}
             />
             <div className={`nav-title${props.isLight}`}>YAO LEE</div>

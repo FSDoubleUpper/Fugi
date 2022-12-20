@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Main from "./pages/Main";
+import style from "./styles.css";
+
 function App() {
     const [light, setLight] = useState(false);
     const handleLight = () => {

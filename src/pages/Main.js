@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Nav from "../components/index/Nav";
+import Footer from "../components/index/Footer";
 import PageChoices from "../components/index/PageChoices";
 
 const Main = (props) => {
@@ -11,6 +12,11 @@ const Main = (props) => {
                 handleLight={props.handleLight}
             />
             <PageChoices
+                theme={props.theme}
+                isLight={props.isLight}
+                handleLight={props.handleLight}
+            />
+            <Footer
                 theme={props.theme}
                 isLight={props.isLight}
                 handleLight={props.handleLight}
