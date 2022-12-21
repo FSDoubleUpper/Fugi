@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/yaolee/static/js/main.44ada986.js",
-    "index.html": "/yaolee/index.html",
-    "main.44ada986.js.map": "/yaolee/static/js/main.44ada986.js.map"
+    "main.css": "/static/css/main.91a4a43b.css",
+    "main.js": "/static/js/main.c17aac8d.js",
+    "index.html": "/index.html",
+    "main.91a4a43b.css.map": "/static/css/main.91a4a43b.css.map",
+    "main.c17aac8d.js.map": "/static/js/main.c17aac8d.js.map"
   },
   "entrypoints": [
-    "static/js/main.44ada986.js"
+    "static/css/main.91a4a43b.css",
+    "static/js/main.c17aac8d.js"
   ]
 }
