@@ -9,7 +9,7 @@ const Footer = (props) => {
                 src={
                     props.theme
                         ? ".icons/theme/linkedin-light.png"
-                        : ".icons/theme/linkedin-dark.png"
+                        : ""
                 }
             ></img>
             <img
@@ -18,7 +18,7 @@ const Footer = (props) => {
                 src={
                     props.theme
                         ? ".icons/theme/twitter-light.png"
-                        : ".icons/theme/twitter-dark.png"
+                        : ""
                 }
             ></img>
         </div>
