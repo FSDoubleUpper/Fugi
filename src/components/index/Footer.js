@@ -8,7 +8,7 @@ const Footer = (props) => {
                 alt="linkedin-link"
                 src={
                     props.theme
-                        ? ".icons/theme/linkedin-light.png"
+                        ? "./icons/theme/linkedin-light.png"
                         : ""
                 }
             ></img>
@@ -17,7 +17,7 @@ const Footer = (props) => {
                 alt="twitter-link"
                 src={
                     props.theme
-                        ? ".icons/theme/twitter-light.png"
+                        ? "./icons/theme/twitter-light.png"
                         : ""
                 }
             ></img>
