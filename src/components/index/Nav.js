@@ -1,15 +1,17 @@
 import React from "react";
+import { Route, Routes, Link } from "react-router-dom"
+
 
 const Nav = (props) => {
     return (
         <div className={`nav-wrapper${props.isLight}`}>
             <div className={`nav-links${props.isLight}`}>
-                <a href="index.html" className={`nav-home${props.isLight}`}>
+                <Link to="/" className={`nav-home${props.isLight}`}>
                     HOME
-                </a>
-                <a href="about.html" className={`nav-about${props.isLight}`}>
+                </Link>
+                <Link to="about" className={`nav-about${props.isLight}`}>
                     ABOUT
-                </a>
+                </Link>
             </div>
             <img
                 className={`nav-button${props.isLight}`}

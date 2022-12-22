@@ -1,6 +1,10 @@
 import React, { useState } from "react";
-import Main from "./pages/Main";
+import About from "./pages/About";
 import style from "./styles.css";
+import Nav from "./components/index/Nav";
+import PageChoices from "./components/index/PageChoices";
+import Footer from "./components/index/Footer";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
     const [light, setLight] = useState(false);
@@ -12,7 +16,39 @@ function App() {
 
     return (
         <div className={`app${isLight}`}>
-            <Main theme={light} isLight={isLight} handleLight={handleLight} />
+            <Nav
+                theme={light}
+                isLight={isLight}
+                handleLight={handleLight}
+            />
+            <Routes>
+                <Route
+                    path="/"
+                    element={
+                        <PageChoices
+                            theme={light}
+                            isLight={isLight}
+                            handleLight={handleLight}
+                        />
+                    }
+                />
+                <Route
+                    path="/about"
+                    element={
+                        <About
+                            theme={light}
+                            isLight={isLight}
+                            handleLight={handleLight}
+                        />
+                    }
+                />
+            </Routes>
+            <Footer
+                className="footer"
+                theme={light}
+                isLight={isLight}
+                handleLight={handleLight}
+            />
         </div>
     );
 }

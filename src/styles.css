@@ -12,12 +12,12 @@
     background-color: rgb(26, 48, 48);
 }
 
-.main {
+.app {
   height: 100vh;
   display: grid;
   grid-template-areas: 
   "nav"
-  "choice"
+  "body"
   "footer";
   grid-template-rows: 10% 80% 10%;
 }
@@ -26,7 +26,7 @@
     grid-area: nav;
 }
 .choice {
-    grid-area: choice;
+    grid-area: body;
 }
 .footer {
     grid-area: footer;
@@ -95,11 +95,16 @@ a {
     transition: color 0.25s, letter-spacing 0.25s ease-in;
 }
 
+
 .choices-img {
     width: 100%;
     height: 26.6vh;
     object-fit: cover;
     transition: height 0.25s ease-in;
+}
+
+.choices-text:active {
+    color: black;
 }
 
 .choices-project {
@@ -108,14 +113,20 @@ a {
     align-items: center;
 }
 
+.choices-project:active {
+    filter: brightness(.5);
+}
+
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
 .footer img {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 @media only screen and (min-width: 600px) {
