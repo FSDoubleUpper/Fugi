@@ -4,22 +4,14 @@ const Footer = (props) => {
     return (
         <div className="footer">
             <img
-                className={`linkedin${props.isLight}`}
+                className="linkedin"
                 alt="linkedin-link"
-                src={
-                    props.theme
-                        ? "./icons/theme/linkedin-light.png"
-                        : ""
-                }
+                src="./icons/theme/linkedin.png"
             ></img>
             <img
-                className={`twitter${props.isLight}`}
+                className="twitter"
                 alt="twitter-link"
-                src={
-                    props.theme
-                        ? "./icons/theme/twitter-light.png"
-                        : ""
-                }
+                src="./icons/theme/twitter.png"
             ></img>
         </div>
     );
