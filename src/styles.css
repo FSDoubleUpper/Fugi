@@ -20,7 +20,6 @@
   "choice"
   "footer";
   grid-template-rows: 10% 80% 10%;
-  border: 2px dashed red;
 }
 
 .nav {
