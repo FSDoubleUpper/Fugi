@@ -4,6 +4,10 @@
     border: 0;
 }
 
+--box {
+    border: 2px dashed red;
+}
+
 :root {
     font-family: "Barlow Condensed", "Segoe UI", Tahoma, Geneva, Verdana,
         sans-serif;
@@ -43,19 +47,15 @@ a {
     font-weight: bolder;
     font-size: 1.5em;
 }
-
 .nav-links {
     padding: 25px;
 }
-
 .nav-links img {
     background-color: transparent;
 }
-
 .nav-home {
     margin-right: 25px;
 }
-
 .nav-button,
 .nav-button.light-mode {
     margin-left: auto;
@@ -65,22 +65,60 @@ a {
     transition: filter 1s ease-in;
 }
 
-.nav-title {
-    padding-right: 25px;
-}
-
 .light-mode {
     color: rgb(80, 60, 34);
     background-color: tan;
 }
 
+.nav-title {
+    padding-right: 25px;
+}
 .nav-title.light-mode {
     color: teal;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.main h1 {
+    margin: 25px;
+}
+
+.mathical-video {
+    width: 100%;
+}
+
+.mathical-video video {
+    width: 100%;
+    height: 100%;
+}
+
+.mathical-info {
+    margin-top: 25px;
+}
+
+.mathical-list {
+    list-style-type: none;
+    margin-top: 10px;
 }
 
 .choices-list {
     display: flex;
     flex-direction: column;
+}
+
+.choices-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choices-project:active {
+    filter: brightness(.5);
 }
 
 .choices-text {
@@ -93,27 +131,19 @@ a {
     text-shadow: 3px 3px black;
     transition: color 0.25s, letter-spacing 0.25s ease-in;
 }
+.choices-text:active {
+    color: black;
+}
 
+.choices-link {
+    width: 100%;
+}
 
 .choices-img {
     width: 100%;
     height: 26.6vh;
     object-fit: cover;
     transition: height 0.25s ease-in;
-}
-
-.choices-text:active {
-    color: black;
-}
-
-.choices-project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.choices-project:active {
-    filter: brightness(.5);
 }
 
 .footer {
@@ -125,6 +155,8 @@ a {
 }
 
 .footer img {
+    max-width: 25px;
+    min-width: 12px;
     padding: 0 10px;
 }
 

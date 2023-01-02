@@ -1,32 +1,39 @@
 import React from "react";
+import { Route, Routes, Link } from "react-router-dom";
 
 const PageChoices = (props) => {
     return (
-        <div className={`choices-list${props.isLight}`}>
-            <div className="choices-project">
-                <h2 className="choices-text">Mathical</h2>
-                <img
-                    className="choices-img"
-                    src="./images/backgrounds/bg-math.jpg"
-                    alt="math background"
-                ></img>
-            </div>
-            <div className="choices-project">
-                <h2 className="choices-text">Store</h2>
-                <img
-                    className="choices-img"
-                    src="./images/backgrounds/bg-photo.jpg"
-                    alt="store background"
-                ></img>
-            </div>
-            <div className="choices-project">
-                <h2 className="choices-text">Photography</h2>
-                <img
-                    className="choices-img"
-                    src="./images/backgrounds/bg-photography.jpg"
-                    alt="photography background"
-                ></img>
-            </div>
+        <div className={`body${props.isLight}`}>
+            <Link className="choices-link" to="/mathical">
+                <div className="choices-project">
+                    <h2 className="choices-text">Mathical</h2>
+                    <img
+                        className="choices-img"
+                        src="./images/backgrounds/bg-math.jpg"
+                        alt="math background"
+                    ></img>
+                </div>
+            </Link>
+            <Link className="choices-link" to="/store">
+                <div className="choices-project">
+                    <h2 className="choices-text">Store</h2>
+                    <img
+                        className="choices-img"
+                        src="./images/backgrounds/bg-photo.jpg"
+                        alt="store background"
+                    ></img>
+                </div>
+            </Link>
+            <Link className="choices-link" to="/photography">
+                <div className="choices-project">
+                    <h2 className="choices-text">Photography</h2>
+                    <img
+                        className="choices-img"
+                        src="./images/backgrounds/bg-photography.jpg"
+                        alt="photography background"
+                    ></img>
+                </div>
+            </Link>
         </div>
     );
 };

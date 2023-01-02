@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, Link } from "react-router-dom"
+import { Route, Routes, Link } from "react-router-dom";
 
 
 const Nav = (props) => {
@@ -9,7 +9,7 @@ const Nav = (props) => {
                 <Link to="/" className={`nav-home${props.isLight}`}>
                     HOME
                 </Link>
-                <Link to="about" className={`nav-about${props.isLight}`}>
+                <Link to="/about" className={`nav-about${props.isLight}`}>
                     ABOUT
                 </Link>
             </div>

@@ -4,6 +4,13 @@ const Footer = (props) => {
     return (
         <div className="footer">
             <div className="social">
+                <a href="https://github.com/FSDoubleUpper" target="_blank">
+                    <img
+                        className="github"
+                        alt="github-link"
+                        src="./icons/theme/github.png"
+                    ></img>
+                </a>
                 <a href="https://www.linkedin.com/in/yao-lee" target="_blank">
                     <img
                         className="linkedin"
