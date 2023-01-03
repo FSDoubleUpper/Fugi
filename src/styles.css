@@ -91,9 +91,10 @@ a {
 
 .mathical-video {
     width: 100%;
+    height: 100%;
 }
 
-.mathical-video video {
+.mathical-video iframe {
     width: 100%;
     height: 100%;
 }

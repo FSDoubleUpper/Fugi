@@ -5,14 +5,12 @@ const Mathical = (props) => {
         <div className="main">
             <h1>Mathical</h1>
             <div className="mathical-video">
-                <video
-                    src="https://youtu.be/GWRK_jQABVU"
-                    type="video/mp4"
-                    controls
-                    title="Mathical"
-                    width="50%"
-                    height="50%"
-                ></video>
+                <iframe
+                    src="https://www.youtube.com/embed/GWRK_jQABVU"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
             </div>
             <div className="mathical-info">
                 <p>Mathical is a basic math practice application.</p>
