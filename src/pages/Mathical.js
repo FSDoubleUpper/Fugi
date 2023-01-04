@@ -15,7 +15,7 @@ const Mathical = (props) => {
             <div className="mathical-info">
                 <p>Mathical is a basic math practice application.</p>
                 <br/><br/>
-                <p>Paremeters you can set:</p>
+                <p>Parameters you can set:</p>
                 <ul className="mathical-list">
                     <li>number of equations</li>
                     <li>largest number to use</li>

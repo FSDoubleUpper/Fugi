@@ -14,26 +14,28 @@ const PageChoices = (props) => {
                     ></img>
                 </div>
             </Link>
-            {/* <Link className="choices-link" to="/store">
+            <Link className="choices-link" to="/store">
                 <div className="choices-project">
                     <h2 className="choices-text">Store</h2>
+                    <h3 className="choices-text choices-text2">In Progress</h3>
                     <img
-                        className="choices-img"
+                        className="choices-img in-progress"
                         src="./images/backgrounds/bg-photo.jpg"
                         alt="store background"
                     ></img>
                 </div>
-            </Link> */}
-            {/* <Link className="choices-link" to="/photography">
+            </Link>
+            <Link className="choices-link" to="/photography">
                 <div className="choices-project">
-                    <h2 className="choices-text">Photography</h2>
+                    <h2 className="choices-text">Lens Finder</h2>
+                    <h3 className="choices-text choices-text2">In Progress</h3>
                     <img
-                        className="choices-img"
+                        className="choices-img in-progress"
                         src="./images/backgrounds/bg-photography.jpg"
                         alt="photography background"
                     ></img>
                 </div>
-            </Link> */}
+            </Link>
         </div>
     );
 };

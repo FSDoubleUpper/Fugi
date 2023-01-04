@@ -132,7 +132,13 @@ a {
     text-shadow: 3px 3px black;
     transition: color 0.25s, letter-spacing 0.25s ease-in;
 }
-.choices-text:active {
+
+.choices-text2 {
+    font-size: 2em;
+    margin-top: 3em;
+}
+
+.choices-text:active, .choices-text2:active {
     color: black;
 }
 
@@ -145,6 +151,10 @@ a {
     height: 26.6vh;
     object-fit: cover;
     transition: height 0.25s ease-in;
+}
+
+.in-progress {
+    filter: opacity(.5) brightness(.5);
 }
 
 .about-me {
@@ -209,6 +219,10 @@ a {
     .choices-project:hover .choices-text {
         color: white;
         letter-spacing: 5px;
+    }
+
+    .in-progress:hover {
+        filter: opacity(.5);
     }
 
     .about-intro {
