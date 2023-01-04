@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import About from "./pages/About";
 import Mathical from "./pages/Mathical";
+import VendingMachine from "./pages/VendingMachine";
 import style from "./styles.css";
 import Nav from "./components/index/Nav";
 import PageChoices from "./components/index/PageChoices";
@@ -37,6 +38,16 @@ function App() {
                     path="/mathical"
                     element={
                         <Mathical
+                            theme={light}
+                            isLight={isLight}
+                            handleLight={handleLight}
+                        />
+                    }
+                />
+                <Route
+                    path="/vending-machine"
+                    element={
+                        <VendingMachine
                             theme={light}
                             isLight={isLight}
                             handleLight={handleLight}

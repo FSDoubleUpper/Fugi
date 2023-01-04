@@ -89,21 +89,21 @@ a {
     margin: 25px;
 }
 
-.mathical-video {
+.mathical-video, .vm-video {
     width: 100%;
     height: 100%;
 }
 
-.mathical-video iframe {
+.mathical-video iframe, .vm-video iframe {
     width: 100%;
     height: 100%;
 }
 
-.mathical-info {
+.mathical-info, .vm-info {
     margin-top: 25px;
 }
 
-.mathical-list {
+.mathical-list, .vm-list {
     list-style-type: none;
     margin-top: 10px;
 }
@@ -130,6 +130,7 @@ a {
     color: white;
     letter-spacing: 8px;
     text-shadow: 3px 3px black;
+    text-align: center;
     transition: color 0.25s, letter-spacing 0.25s ease-in;
 }
 

@@ -14,7 +14,17 @@ const PageChoices = (props) => {
                     ></img>
                 </div>
             </Link>
-            <Link className="choices-link" to="/store">
+            <Link className="choices-link" to="/vending-machine">
+                <div className="choices-project">
+                    <h2 className="choices-text">Vending Machine</h2>
+                    <img
+                        className="choices-img"
+                        src="./images/backgrounds/bg-vm.jpg"
+                        alt="vending machine background"
+                    ></img>
+                </div>
+            </Link>
+            <Link className="choices-link" to="/">
                 <div className="choices-project">
                     <h2 className="choices-text">Store</h2>
                     <h3 className="choices-text choices-text2">In Progress</h3>
@@ -25,7 +35,7 @@ const PageChoices = (props) => {
                     ></img>
                 </div>
             </Link>
-            <Link className="choices-link" to="/photography">
+            <Link className="choices-link" to="/">
                 <div className="choices-project">
                     <h2 className="choices-text">Lens Finder</h2>
                     <h3 className="choices-text choices-text2">In Progress</h3>

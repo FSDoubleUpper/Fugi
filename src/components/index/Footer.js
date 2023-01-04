@@ -11,6 +11,13 @@ const Footer = (props) => {
                         src="./icons/theme/github.png"
                     ></img>
                 </a>
+                <a href="https://codepen.io/fsdoubleupper" target="_blank">
+                    <img
+                        className="codepen"
+                        alt="codepen-link"
+                        src="./icons/theme/codepen.png"
+                    ></img>
+                </a>
                 <a href="https://www.linkedin.com/in/yao-lee" target="_blank">
                     <img
                         className="linkedin"
