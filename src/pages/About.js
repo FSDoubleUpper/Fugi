@@ -5,7 +5,7 @@ const About = (props) => {
         <main className="main about-main">
             <h1>About</h1>
             <div className="about-intro">
-                <img src="./images/aboutimg.jpg" alt="a portrait photo of Yao" className="about-me"></img>
+                <img src="./images/profile.jpg" alt="a portrait photo of Yao" className="about-me"></img>
                 <div className="intro">
                     <p>
                         &emsp;Hi there! My name is Yao and I'm a Full Stack
