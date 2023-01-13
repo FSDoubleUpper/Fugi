@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = (props) => {
     return (
-        <div className={`footer ${props.isLight}`}>
+        <footer className={`footer ${props.isLight}`}>
             <div className="social">
                 <a href="https://github.com/FSDoubleUpper" target="_blank">
                     <img
@@ -23,7 +23,7 @@ const Footer = (props) => {
                         className="linkedin"
                         alt="linkedin-link"
                         src="./icons/theme/linkedin.png"
-                    ></img>
+                    ></img> 
                 </a>
                 <a href="https://twitter.com/FSD_YaoLee" target="_blank">
                     <img
@@ -34,7 +34,7 @@ const Footer = (props) => {
                 </a>
             </div>
             <small>&copy; Copyright 2022, YFL</small>
-        </div>
+        </footer>
     );
 };
 

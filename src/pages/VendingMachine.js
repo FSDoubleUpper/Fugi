@@ -22,7 +22,7 @@ const VendingMachine = (props) => {
                     <li>handle out of stock</li>
                     <li>handle wrong item choices</li>
                     <li>logs transactions</li>
-                </ul>
+                </ul><br/>
             </div>
         </div>
     );

@@ -5,7 +5,14 @@ const About = (props) => {
         <main className={`main about-main ${props.isLight}`}>
             <h1>About</h1>
             <div className={`about-intro ${props.isLight}`}>
-                <img src="./images/profile.jpg" alt="a portrait photo of Yao" className="about-me"></img>
+                <figure>
+                    <img
+                        src="./images/profile.jpg"
+                        alt="a portrait photo of Yao"
+                        className="about-me"
+                    ></img>
+                    <figcaption className={`${props.isLight}`}>A portrait of Yao Lee</figcaption>
+                </figure>
                 <div className="intro">
                     <p>
                         &emsp;Hi there! My name is Yao and I'm a Full Stack

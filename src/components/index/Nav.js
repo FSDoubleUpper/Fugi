@@ -5,14 +5,14 @@ import { Route, Routes, Link } from "react-router-dom";
 const Nav = (props) => {
     return (
         <div className={`nav-wrapper${props.isLight}`}>
-            <div className={`nav-links${props.isLight}`}>
+            <nav className={`nav-links${props.isLight}`}>
                 <Link to="/" className={`nav-home${props.isLight}`}>
                     HOME
                 </Link>
                 <Link to="/about" className={`nav-about${props.isLight}`}>
                     ABOUT
                 </Link>
-            </div>
+            </nav>
             <img
                 className={`nav-button${props.isLight}`}
                 src={

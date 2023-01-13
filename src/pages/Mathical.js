@@ -20,7 +20,8 @@ const Mathical = (props) => {
                     <li>number of equations</li>
                     <li>largest number to use</li>
                     <li>type of equation to practice</li>
-                </ul>
+                </ul><br/>
+                <p>You can click <a href="https://github.com/FSDoubleUpper/Mathical">here</a> to go to github.</p>
             </div>
         </div>
     );

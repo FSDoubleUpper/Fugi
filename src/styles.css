@@ -164,6 +164,15 @@ a {
     margin: 0 auto 25px auto;
 }
 
+figcaption {
+    color: #fff;
+    font: italic smaller sans-serif;
+}
+
+figcaption.light-mode {
+    color: black;
+}
+
 .about-intro {
     padding: 25px;
     text-align: left;
@@ -182,10 +191,24 @@ a {
     padding: 20px;
 }
 
+.footer-note {
+    margin-top: 50px;
+}
+
 .footer img {
     max-width: 25px;
     min-width: 12px;
     padding: 0 10px;
+}
+
+.social {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.social-link {
+    margin: 10px 25px;
 }
 
 @media only screen and (min-width: 600px) {
