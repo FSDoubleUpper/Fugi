@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = (props) => {
     return (
-        <div className="footer">
+        <div className={`footer ${props.isLight}`}>
             <div className="social">
                 <a href="https://github.com/FSDoubleUpper" target="_blank">
                     <img

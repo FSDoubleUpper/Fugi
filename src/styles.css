@@ -169,6 +169,11 @@ a {
     text-align: left;
 }
 
+.about-intro.light-mode {
+    background-color: white;
+    color: black;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
