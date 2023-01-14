@@ -2,9 +2,9 @@ import React from "react";
 
 const About = (props) => {
     return (
-        <main className={`main about-main ${props.isLight}`}>
+        <main className={`main about-main${props.isLight}`}>
             <h1>About</h1>
-            <div className={`about-intro ${props.isLight}`}>
+            <div className={`about-intro${props.isLight}`}>
                 <figure>
                     <img
                         src="./images/profile.jpg"
