@@ -21,7 +21,7 @@ const Mathical = (props) => {
                     <li>largest number to use</li>
                     <li>type of equation to practice</li>
                 </ul><br/>
-                <p>You can click <a href="https://github.com/FSDoubleUpper/Mathical">here</a> to go to github.</p>
+                <p>You can click <a href="https://github.com/FSDoubleUpper/Mathical" target="_blank">here</a> to go to github.</p>
             </div>
         </div>
     );
