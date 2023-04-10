@@ -52,8 +52,9 @@ a {
 }
 .nav-links-right {
     display: flex;
+    align-items: center;
 }
-.nav-links img {
+.nav-links-left img {
     background-color: transparent;
 }
 .nav-home {
@@ -61,9 +62,9 @@ a {
 }
 .nav-button,
 .nav-button.light-mode {
-    margin-left: auto;
     padding-right: 25px;
-    width: 1em;
+    max-width: 25px;
+    max-height: 25px;
     background-color: transparent;
     transition: filter 1s ease-in;
 }
@@ -77,6 +78,9 @@ a {
 }
 .social img:active {
     filter: invert(100%);
+}
+.social.light-mode * {
+    filter: none;
 }
 
 .light-mode {
@@ -146,6 +150,7 @@ a {
     text-shadow: 3px 3px black;
     text-align: center;
     transition: color 0.25s, letter-spacing 0.25s ease-in;
+    white-space: nowrap;
 }
 
 .choices-text2 {
@@ -237,7 +242,7 @@ figcaption.light-mode {
 }
 
 @media only screen and (min-width: 600px) {
-    .nav-links a {
+    .nav-links-left a {
         transition: color 0.25s ease-in;
     }
 
@@ -246,10 +251,10 @@ figcaption.light-mode {
         text-decoration: none;
     }
 
-    .nav-links.light-mode a:hover {
+    .nav-links-left.light-mode a:hover {
         color: teal;
     }
-    .nav-links a:hover {
+    .nav-links-left a:hover {
         color: tan;
     }
 
@@ -262,7 +267,7 @@ figcaption.light-mode {
         filter: invert(1);
     }
 
-    .nav-links .light-mode:hover {
+    .nav-links-left .light-mode:hover {
         transition: color 0.25s ease-in;
     }
 
@@ -293,6 +298,10 @@ figcaption.light-mode {
         width: 250px;
         display: box;
         margin: auto;
+    }
+
+    .social.light-mode * {
+        filter: none;
     }
 
     .social img:hover {
