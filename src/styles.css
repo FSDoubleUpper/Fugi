@@ -107,14 +107,14 @@ a {
     margin: 25px;
 }
 
-.mathical-video, .vm-video {
+.project-video, .vm-video {
     width: 100%;
     height: 100%;
 }
 
-.mathical-video iframe, .vm-video iframe {
-    width: 100%;
-    height: 100%;
+.project-video iframe, .vm-video iframe {
+    width: 600px;
+    height: 400px;
 }
 
 .mathical-info, .vm-info {
