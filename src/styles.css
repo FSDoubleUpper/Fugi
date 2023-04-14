@@ -16,13 +16,13 @@
 }
 
 .app {
-  height: 100vh;
-  display: grid;
-  grid-template-areas: 
-  "nav"
-  "body"
-  "footer";
-  grid-template-rows: 10% 1fr 10%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "body"
+        "footer";
+    grid-template-rows: 10% 1fr 10%;
 }
 
 .nav {
@@ -43,7 +43,7 @@ a {
 .nav-wrapper {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     font-weight: bolder;
     font-size: 1.5em;
 }
@@ -107,7 +107,8 @@ a {
     margin: 25px;
 }
 
-.mathical-video, .vm-video {
+.mathical-video,
+.vm-video {
     width: 100%;
     height: 100%;
 }
@@ -117,11 +118,13 @@ a {
     height: 400px;
 }
 
-.mathical-info, .vm-info {
+.mathical-info,
+.vm-info {
     margin-top: 25px;
 }
 
-.mathical-list, .vm-list {
+.mathical-list,
+.vm-list {
     list-style-type: none;
     margin-top: 10px;
 }
@@ -137,7 +140,7 @@ a {
     align-items: center;
 }
 .choices-project:active {
-    filter: brightness(.5);
+    filter: brightness(0.5);
 }
 
 .choices-text {
@@ -158,7 +161,8 @@ a {
     margin-top: 3em;
 }
 
-.choices-text:active, .choices-text2:active {
+.choices-text:active,
+.choices-text2:active {
     color: black;
 }
 
@@ -174,7 +178,7 @@ a {
 }
 
 .in-progress {
-    filter: opacity(.5) brightness(.5);
+    filter: opacity(0.5) brightness(0.5);
 }
 
 .about-me {
@@ -224,7 +228,7 @@ figcaption.light-mode {
 }
 
 .social {
-    display:flex;
+    display: flex;
     flex-direction: row;
     text-align: center;
     margin-right: 25px;
@@ -289,39 +293,45 @@ figcaption.light-mode {
     }
 
     .in-progress:hover {
-        filter: opacity(.5);
+        filter: opacity(0.5);
     }
 
-    
     .about-intro {
         display: flex;
         flex-direction: column;
-        width: 100vw;
-        background-color: black;
+        background-color: navajowhite;
+        color: black;
+        padding: 10%;
     }
 
     .about-introduction {
         padding: 0;
-        background-color: white;
-        width: 100vw;
+        display: flex;
+        flex-direction: column;
     }
 
     .intro p {
-        font-size: 3em;
+        font-size: 3rem;
         opacity: 0;
         transition: opacity 1s;
     }
-
     .intro p.fade-in {
         opacity: 1;
     }
-    
-    .about-intro2 p {
-        font-size: 2em;
-        color: black;
+
+    .about-me {
+        padding: 5%;
     }
-    .about-intro2-img {
-        margin-right: 50px;
+
+    .about-intro2,
+    .about-intro4 {
+        font-size: 2rem;
+        background-color: paleturquoise;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10%;
     }
     figcaption {
         color: gray;
@@ -330,25 +340,27 @@ figcaption.light-mode {
         color: cadetblue;
     }
 
-    .about-intro3 {
-        background-color: black;
+    .about-intro3,
+    .about-intro5 {
+        background-color: navajowhite;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10%;
     }
-    .about-intro3 p {
+    .about-intro3 p,
+    .about-intro5 p {
         width: 25%;
-        font-size: larger;
-        color: white;
+        font-size: 2rem;
+        color: black;
     }
     .about-intro3-img {
         margin-left: 50px;
     }
-    
-    .about-intro2, .about-intro3 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    .about-intro2 p, .about-intro3 p {
+    .about-intro2 p,
+    .about-intro3 p,
+    .about-intro4 p,
+    .about-intro5 p {
         width: 50vw;
     }
 
@@ -373,5 +385,4 @@ figcaption.light-mode {
         padding: 25px;
         margin: auto;
     }
-
 }
