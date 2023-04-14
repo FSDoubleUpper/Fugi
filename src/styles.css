@@ -242,6 +242,9 @@ figcaption.light-mode {
 }
 
 @media only screen and (min-width: 600px) {
+    .main {
+        align-items: normal;
+    }
     .nav-links-left a {
         transition: color 0.25s ease-in;
     }
@@ -289,9 +292,64 @@ figcaption.light-mode {
         filter: opacity(.5);
     }
 
+    
     .about-intro {
         display: flex;
+        flex-direction: column;
+        width: 100vw;
         background-color: black;
+    }
+
+    .about-introduction {
+        padding: 0;
+        background-color: white;
+        width: 100vw;
+    }
+
+    .intro p {
+        font-size: 3em;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    .intro p.fade-in {
+        opacity: 1;
+    }
+    
+    .about-intro2 p {
+        font-size: 2em;
+        color: black;
+    }
+    .about-intro2-img {
+        margin-right: 50px;
+    }
+    figcaption {
+        color: gray;
+    }
+    figcaption a {
+        color: cadetblue;
+    }
+
+    .about-intro3 {
+        background-color: black;
+    }
+    .about-intro3 p {
+        width: 25%;
+        font-size: larger;
+        color: white;
+    }
+    .about-intro3-img {
+        margin-left: 50px;
+    }
+    
+    .about-intro2, .about-intro3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-intro2 p, .about-intro3 p {
+        width: 50vw;
     }
 
     .about-me {
