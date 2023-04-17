@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PageChoicesLinks from "./PageChoicesLinks";
 
 const PageChoices = (props) => {
@@ -33,6 +33,17 @@ const PageChoices = (props) => {
                 imageAlt="photography background"
                 isPageOnline={false}
             />
+            <Link className="choices-link" to="/">
+                <div className="choices-project">
+                    <h2 className="choices-text">Lens Finder</h2>
+                    <h3 className="choices-text choices-text2">In Progress</h3>
+                    <img
+                        className="choices-img in-progress"
+                        src="./images/backgrounds/bg-photography.jpg"
+                        alt="photography background"
+                    ></img>
+                </div>
+            </Link>
         </div>
     );
 };

@@ -85,8 +85,8 @@ const About = (props) => {
                         ></img>
                     </div>
                 </div>
-                <div>
-                    <div className="about-intro6">
+                <div className="about-intro6">
+                    <div>
                         <p>
                             So if you're in need of some top-notch code or just
                             want to chat about the latest and greatest in the

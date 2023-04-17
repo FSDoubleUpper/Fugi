@@ -299,7 +299,7 @@ figcaption.light-mode {
     .about-intro {
         display: flex;
         flex-direction: column;
-        background-color: navajowhite;
+        background-color: #73B2D9;
         color: black;
         padding: 10%;
     }
@@ -326,8 +326,8 @@ figcaption.light-mode {
     .about-intro2,
     .about-intro4 {
         font-size: 2rem;
-        background-color: paleturquoise;
-        color: black;
+        background-color: #84BFB9;
+        color: white;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -342,7 +342,7 @@ figcaption.light-mode {
 
     .about-intro3,
     .about-intro5 {
-        background-color: navajowhite;
+        background-color: #F2D49B;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -360,22 +360,28 @@ figcaption.light-mode {
     .about-intro2 p,
     .about-intro3 p,
     .about-intro4 p,
-    .about-intro5 p {
+    .about-intro5 p,
+    .about-intro6 p {
         width: 50vw;
     }
 
     .about-intro6 {
         display: flex;
-        font-size: 2.5em;
-        width: 75vw;
+        font-size: 3em;
         left: 50%;
+        font-family: arial;
         justify-content: center;
-        border: 2px dashed red;
+        background-color: white;
+        font-family: 'Dongle', sans-serif;
+        color: #96C7C4;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        padding: 10%;
     }
 
     .about-me {
         width: 250px;
-        display: box;
         margin: auto;
     }
 
