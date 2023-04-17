@@ -364,6 +364,15 @@ figcaption.light-mode {
         width: 50vw;
     }
 
+    .about-intro6 {
+        display: flex;
+        font-size: 2.5em;
+        width: 75vw;
+        left: 50%;
+        justify-content: center;
+        border: 2px dashed red;
+    }
+
     .about-me {
         width: 250px;
         display: box;
