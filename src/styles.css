@@ -253,6 +253,28 @@ figcaption.light-mode {
         transition: color 0.25s ease-in;
     }
 
+    .play-button {
+        display: inline-block;
+        background-color: green;
+        padding: 25px;
+        margin: 25px;
+        font-weight: bold;
+        color: black;
+    }
+    .play-button:hover {
+        position: relative;
+        right: 5px;
+        bottom: 5px;
+        box-shadow: 10px 10px black;
+        color: white;
+    }
+    .play-button:active {
+        right: 0;
+        bottom: 0;
+        box-shadow: inset 2px 3px 4px black;
+        color: yellow;
+    }
+
     a {
         color: #6c4f14;
         text-decoration: none;
@@ -299,9 +321,16 @@ figcaption.light-mode {
     .about-intro {
         display: flex;
         flex-direction: column;
-        background-color: #73B2D9;
+        background-color: #73b2d9;
         color: black;
-        padding: 10%;
+        padding: 5%;
+    }
+
+    .about-text-left {
+        padding-left: 2rem;
+    }
+    .about-text-right {
+        padding-right: 2rem;
     }
 
     .about-introduction {
@@ -320,18 +349,18 @@ figcaption.light-mode {
     }
 
     .about-me {
-        padding: 5%;
+        width: 425px;
+        margin: auto;
     }
 
     .about-intro2,
     .about-intro4 {
         font-size: 2rem;
-        background-color: #84BFB9;
+        background-color: #84bfb9;
         color: white;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 10%;
     }
     figcaption {
         color: gray;
@@ -342,20 +371,30 @@ figcaption.light-mode {
 
     .about-intro3,
     .about-intro5 {
-        background-color: #F2D49B;
+        background-color: #f2d49b;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        padding: 10%;
+        justify-content: space-between;
     }
     .about-intro3 p,
     .about-intro5 p {
         width: 25%;
-        font-size: 2rem;
         color: black;
+    }
+
+    .about-intro3 p {
+        font-size: 1.5rem;
     }
     .about-intro3-img {
         margin-left: 50px;
+    }
+    .me-camera,
+    .me-game {
+        width: 275px;
+    }
+
+    .about-intro5 p {
+        font-size: 2rem;
     }
     .about-intro2 p,
     .about-intro3 p,
@@ -363,6 +402,7 @@ figcaption.light-mode {
     .about-intro5 p,
     .about-intro6 p {
         width: 50vw;
+        margin: 10% 0;
     }
 
     .about-intro6 {
@@ -372,17 +412,16 @@ figcaption.light-mode {
         font-family: arial;
         justify-content: center;
         background-color: white;
-        font-family: 'Dongle', sans-serif;
-        color: #96C7C4;
+        font-family: "Dongle", sans-serif;
+        color: #96c7c4;
         font-weight: bolder;
         letter-spacing: 1px;
         word-spacing: 2px;
         padding: 10%;
     }
 
-    .about-me {
-        width: 250px;
-        margin: auto;
+    .about-photo {
+        width: 30vw;
     }
 
     .social.light-mode * {

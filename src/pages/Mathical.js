@@ -13,16 +13,35 @@ const Mathical = (props) => {
                     allowFullScreen
                 ></iframe>
             </div>
+            <div>
+                <a
+                    href="https://643dece53546973c334234a4--leafy-peony-78891d.netlify.app/"
+                    className="play-button"
+                >
+                    CLICK HERE to PLAY
+                </a>
+            </div>
             <div className="mathical-info">
                 <p>Mathical is a basic math practice application.</p>
-                <br/><br/>
+                <br />
+                <br />
                 <p>Parameters you can set:</p>
                 <ul className="mathical-list">
                     <li>number of equations</li>
                     <li>largest number to use</li>
                     <li>type of equation to practice</li>
-                </ul><br/>
-                <p>You can click <a href="https://github.com/FSDoubleUpper/Mathical" target="_blank">here</a> to go to github.</p>
+                </ul>
+                <br />
+                <p>
+                    You can click{" "}
+                    <a
+                        href="https://github.com/FSDoubleUpper/Mathical"
+                        target="_blank"
+                    >
+                        here
+                    </a>{" "}
+                    to go to github.
+                </p>
             </div>
         </div>
     );

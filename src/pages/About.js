@@ -12,9 +12,9 @@ const About = (props) => {
             <h1>About</h1>
             <div className={`about-intro${props.isLight}`}>
                 <img
-                    src="./images/profile.jpg"
+                    src="./images/about-me.jpg"
                     alt="a portrait photo of Yao"
-                    className="about-me"
+                    className="about-me about-photo"
                 ></img>
                 <div className="intro">
                     <p className={`${isVisible ? "fade-in" : ""}`}>Hi there!</p>
@@ -29,7 +29,7 @@ const About = (props) => {
                             className="about-me brickboy"
                         ></img>
                     </div>
-                    <div>
+                    <div className="about-text-right">
                         <p>
                             My name is Yao and I'm a Full Stack Developer from
                             California.
@@ -37,7 +37,7 @@ const About = (props) => {
                     </div>
                 </div>
                 <div className="about-intro3">
-                    <div>
+                    <div className="about-text-left">
                         <p>
                             &emsp;I have a strong passion for programming as it
                             allows me to take the ideas swirling around in my
@@ -63,10 +63,10 @@ const About = (props) => {
                         <img
                             src="./images/me-photo.jpg"
                             alt="self portrait of Yao Lee taking photo of himself"
-                            className="about-me meCamera"
+                            className="about-me me-camera"
                         ></img>
                     </div>
-                    <div>
+                    <div className="about-text-right">
                         <p>
                             However when I'm not busy bringing my code to life,
                             you can find me behind the lens of a camera...
@@ -74,19 +74,19 @@ const About = (props) => {
                     </div>
                 </div>
                 <div className="about-intro5">
-                    <div>
+                    <div className="about-text-left">
                         <p>...Or indulging in some video game action!</p>
                     </div>
                     <div className="about-intro5-img">
                         <img
                             src="./images/gamemania.jpg"
                             alt="man infront of a game store"
-                            className="about-me"
+                            className="about-me me-game"
                         ></img>
                     </div>
                 </div>
                 <div className="about-intro6">
-                    <div>
+                    <div className="about-text">
                         <p>
                             So if you're in need of some top-notch code or just
                             want to chat about the latest and greatest in the
