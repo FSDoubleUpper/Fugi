@@ -50,6 +50,9 @@ a {
 .nav-links-left {
     margin: 25px;
 }
+.nav-home.light-mode, .nav-about.light-mode {
+    color: black
+}
 .nav-links-right {
     display: flex;
     align-items: center;

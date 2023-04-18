@@ -22,7 +22,7 @@ const Nav = (props) => {
                             ? "./icons/theme/light.png"
                             : "./icons/theme/dark.png"
                     }
-                    alt="light dark mode button"
+                    alt="light-mode or dark-mode button"
                     onClick={props.handleLight}
                 />
                 <div className={`nav-title${props.isLight}`}>YAO LEE</div>
