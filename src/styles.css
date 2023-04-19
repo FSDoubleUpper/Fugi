@@ -177,6 +177,9 @@ a {
 .choices-img:hover {
     height: 50vh;
 }
+.choices-img.in-progress:hover {
+    height: 26.6vh;
+}
 
 .in-progress {
     filter: opacity(0.5) brightness(0.5);
