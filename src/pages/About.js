@@ -85,7 +85,7 @@ const About = (props) => {
                         ></img>
                     </div>
                 </div>
-                <div className="about-intro6">
+                <div className={`about-intro6${props.isLight}`}>
                     <div className="about-text">
                         <p>
                             So if you're in need of some top-notch code or just
