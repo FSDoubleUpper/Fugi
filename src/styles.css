@@ -404,11 +404,6 @@ figcaption.light-mode {
 
     .intro p {
         font-size: 3rem;
-        opacity: 0;
-        transition: opacity 1s;
-    }
-    .intro p.fade-in {
-        opacity: 1;
     }
 
     .about-me {

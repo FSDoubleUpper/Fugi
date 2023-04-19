@@ -1,12 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const About = (props) => {
-    const [isVisible, setIsVisible] = useState(false);
-
-    useEffect(() => {
-        window.onload = () => setIsVisible(true);
-    }, []);
-
     return (
         <main className={`main about-main${props.isLight}`}>
             <h1>About</h1>
@@ -17,7 +11,7 @@ const About = (props) => {
                     className="about-me about-photo"
                 ></img>
                 <div className="intro">
-                    <p className={`${isVisible ? "fade-in" : ""}`}>Hi there!</p>
+                    <p>Hi there!</p>
                 </div>
             </div>
             <section className="about-introduction">
