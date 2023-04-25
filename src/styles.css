@@ -8,11 +8,12 @@
     font-family: "Barlow Condensed", "Segoe UI", Tahoma, Geneva, Verdana,
         sans-serif;
     color: tan;
-    background-color: rgb(26, 48, 48);
+    background-color: rgb(32, 59, 59);
 }
 
 .app {
     height: 100vh;
+    width: auto;
     display: grid;
     grid-template-areas:
         "nav"
@@ -46,8 +47,9 @@ a {
 .nav-links-left {
     margin: 25px;
 }
-.nav-home.light-mode, .nav-about.light-mode {
-    color: black
+.nav-home.light-mode,
+.nav-about.light-mode {
+    color: black;
 }
 .nav-links-right {
     display: flex;
@@ -172,7 +174,7 @@ a {
     width: 100%;
     height: 26.6vh;
     object-fit: cover;
-    transition: height .25s ease-in;
+    transition: height 0.25s ease-in;
 }
 .choices-img:hover {
     height: 50vh;
@@ -210,8 +212,8 @@ figcaption.light-mode {
     padding: 5%;
 }
 
-
-.about-intro2, .about-intro4 {
+.about-intro2,
+.about-intro4 {
     font-size: 2rem;
     background-color: #84bfb9;
     color: white;
@@ -220,7 +222,8 @@ figcaption.light-mode {
     justify-content: space-between;
 }
 
-.brickboy, .me-camera {
+.brickboy,
+.me-camera {
     margin: 0;
 }
 
