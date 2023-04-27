@@ -19,11 +19,11 @@ const PageChoices = (props) => {
                 isPageOnline={true}
             />
             <PageChoicesLinks
-                toPage="/"
-                title="Store"
-                imageBackground="./images/backgrounds/bg-photo.jpg"
+                toPage="/iumienkind"
+                title="iumienkind"
+                imageBackground="./images/backgrounds/bg-imk.jpg"
                 imageAlt="store background"
-                isPageOnline={false}
+                isPageOnline={true}
             />
             <PageChoicesLinks
                 toPage="/"

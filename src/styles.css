@@ -12,14 +12,12 @@
 }
 
 .app {
-    height: 100vh;
-    width: 100vw;
     display: grid;
     grid-template-areas:
         "nav"
         "body"
         "footer";
-    grid-template-rows: 10% 1fr 10%;
+    grid-template-rows: 10vh 1fr 10vh;
 }
 
 .nav {
@@ -35,6 +33,10 @@
 a {
     color: tan;
     text-decoration: none;
+}
+
+p a {
+    color: skyblue;
 }
 
 .nav-wrapper {
@@ -128,6 +130,13 @@ a {
     list-style-type: none;
     margin-top: 10px;
 }
+
+.store-screenshot {
+    width: 50%;
+    margin: 25px 0;
+}
+
+
 
 .choices-list {
     display: flex;

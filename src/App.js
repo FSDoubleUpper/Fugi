@@ -1,12 +1,15 @@
 import React, { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import style from "./styles.css";
+
 import About from "./pages/About";
 import Mathical from "./pages/Mathical";
 import VendingMachine from "./pages/VendingMachine";
-import style from "./styles.css";
+import Iumienkind from "./pages/Iumienkind";
+
 import Nav from "./components/index/Nav";
 import PageChoices from "./components/index/PageChoices";
 import Footer from "./components/index/Footer";
-import { Route, Routes } from "react-router-dom";
 
 function App() {
     const [light, setLight] = useState(false);
@@ -48,6 +51,16 @@ function App() {
                     path="/vending-machine"
                     element={
                         <VendingMachine
+                            theme={light}
+                            isLight={isLight}
+                            handleLight={handleLight}
+                        />
+                    }
+                />
+                <Route
+                    path="/iumienkind"
+                    element={
+                        <Iumienkind
                             theme={light}
                             isLight={isLight}
                             handleLight={handleLight}
