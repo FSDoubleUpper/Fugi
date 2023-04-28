@@ -15,7 +15,7 @@ const Iumienkind = (props) => {
                     with Wordpress. The website is currently maintained by me
                     and will be updated per client request.
                     <br />
-                    You can visit her website <a href="www.iumienkind.wordpress.com" target="_blank">here</a>.
+                    You can visit her website <a href="www.iumienkind.wordpress.com" target="_blank" className={`${props.isLight}`}>here</a>.
                 </p>
                 <br />
                 <br />

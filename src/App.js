@@ -20,7 +20,7 @@ function App() {
     const isLight = light ? " light-mode" : "";
 
     return (
-        <div className={`app${isLight}`}>
+        <div className={`app main${isLight}`}>
             <Nav
                 theme={light}
                 isLight={isLight}

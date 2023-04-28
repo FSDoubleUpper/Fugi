@@ -39,12 +39,16 @@ p a {
     color: skyblue;
 }
 
+p a.light-mode {
+    color: blue;
+}
+
 .nav-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: bolder;
-    font-size: 1.5em;
+    width: 100vw;
 }
 .nav-links-left {
     margin: 25px;
@@ -65,9 +69,9 @@ p a {
 }
 .nav-button,
 .nav-button.light-mode {
-    padding-right: 25px;
-    max-width: 25px;
-    max-height: 25px;
+    padding-right: 20px;
+    max-width: 20px;
+    max-height: 20px;
     background-color: transparent;
     transition: filter 1s ease-in;
 }
@@ -78,6 +82,9 @@ p a {
 
 .social img {
     filter: invert(50%);
+    height: 15px;
+    width: 15px;
+    margin: 0 8px;
 }
 .social img:active {
     filter: invert(100%);
@@ -92,7 +99,7 @@ p a {
 }
 
 .nav-title {
-    padding-right: 25px;
+    padding-right: 20px;
 }
 .nav-title.light-mode {
     color: teal;
@@ -116,8 +123,7 @@ p a {
 }
 
 .video-frame {
-    width: 600px;
-    height: 400px;
+    width: 50vw;
 }
 
 .mathical-info,
@@ -293,7 +299,6 @@ figcaption.light-mode {
 
 .footer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -319,12 +324,6 @@ figcaption.light-mode {
 
 .social-links {
     text-align: left;
-}
-
-.social img {
-    height: 25px;
-    width: 25px;
-    margin: 0 10px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -380,6 +379,11 @@ figcaption.light-mode {
 
     .nav-links-left .light-mode:hover {
         transition: color 0.25s ease-in;
+    }
+
+    .video-frame {
+        width: 600px;
+        height: 400px;
     }
 
     .choices-project:hover {
@@ -471,6 +475,12 @@ figcaption.light-mode {
 
     .social.light-mode * {
         filter: none;
+    }
+
+    .social img {
+        height: 25px;
+        width: 25px;
+        margin: 0 10px;
     }
 
     .social img:hover {
