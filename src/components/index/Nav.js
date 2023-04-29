@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import SocialLinks from "./SocialLinks";
 
 const Nav = (props) => {
-
     return (
         <div className={`nav nav-wrapper${props.isLight}`}>
             <nav className={`nav-links-left${props.isLight}`}>
