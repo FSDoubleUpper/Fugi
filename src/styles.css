@@ -49,6 +49,7 @@ p a.light-mode {
     justify-content: space-between;
     font-weight: bolder;
     width: 100vw;
+    font-size: 1rem;
 }
 .nav-links-left {
     margin: 25px;
@@ -110,6 +111,7 @@ p a.light-mode {
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
+    font-size: .75rem;
 }
 
 .main h1 {
@@ -327,11 +329,21 @@ figcaption.light-mode {
 }
 
 @media only screen and (min-width: 600px) {
+    .app {
+
+    }
     .main {
         align-items: normal;
+        font-size: 1.5rem;
+    }
+    .nav-wrapper {
+        font-size: 1.5rem;
     }
     .nav-links-left a {
         transition: color 0.25s ease-in;
+    }
+    .nav-links-right {
+        margin-right: 25px;
     }
 
     .play-button {
