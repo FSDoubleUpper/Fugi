@@ -25,23 +25,48 @@ const About = (props) => {
                     </div>
                     <div className="about-text-right">
                         <p>
-                            My name is Yao and I'm a Full Stack Developer from
-                            California.
+                            My name is<span className="text-name"> Yao </span>
+                            and I'm a
+                            <span className="text-fsd font-bolder">
+                                {" "}
+                                Full Stack Developer{" "}
+                            </span>
+                            from
+                            <span className="text-location font-italic">
+                                {" "}
+                                California
+                            </span>
+                            .
                         </p>
                     </div>
                 </div>
                 <div className="about-intro3">
                     <div className="about-text-left">
                         <p>
-                            &emsp;I have a strong passion for programming as it
-                            allows me to take the ideas swirling around in my
-                            head and turn them into something real. It's like a
-                            superpower I wish I had... maybe... maybe one day...
+                            &emsp;I have a
+                            <span className="clr-white font-bold font-2">
+                                {" "}
+                                strong passion{" "}
+                            </span>
+                            for programming as it allows me to take the ideas
+                            swirling around in my head and turn them into
+                            something real. It's like a
+                            <span className="text-superpower font-italic font-bolder font-2">
+                                {" "}
+                                superpower{" "}
+                            </span>
+                            I wish I had... maybe... maybe one day...
                             <br />
                             <br />
                             Whether it's a new app or a website, programming
-                            brings me joy and helps me bring my visions to life
-                            so I can share them with the world.
+                            brings me joy and helps me bring my
+                            <span className="clr-white font-2"> visions </span>
+                            to life so I can share them with the
+                            <span className="text-world font-2 font-bold font-italic">
+                                {" "}
+                                world
+                            </span>
+                            .
                         </p>
                     </div>
                     <div className="about-intro3-img">
@@ -62,14 +87,27 @@ const About = (props) => {
                     </div>
                     <div className="about-text-right">
                         <p>
-                            However when I'm not busy bringing my code to life,
-                            you can find me behind the lens of a camera...
+                            However when I'm not busy bringing my{" "}
+                            <span className="text-code font-bold"> code </span>
+                            to life, you can find me behind the lens of a{" "}
+                            <span className="text-camera font-bolder">
+                                {" "}
+                                camera
+                            </span>
+                            ...
                         </p>
                     </div>
                 </div>
                 <div className="about-intro5">
                     <div className="about-text-left">
-                        <p>...Or indulging in some video game action!</p>
+                        <p>
+                            ...Or indulging in some
+                            <span className="clr-white font-2">
+                                {" "}
+                                video game{" "}
+                            </span>{" "}
+                            action!
+                        </p>
                     </div>
                     <div className="about-intro5-img">
                         <img
@@ -82,9 +120,19 @@ const About = (props) => {
                 <div className={`about-intro6${props.isLight}`}>
                     <div className="about-text">
                         <p>
-                            So if you're in need of some top-notch code or just
-                            want to chat about the latest and greatest in the
-                            tech world, don't hesitate to reach out!
+                            So if you're in need of some
+                            <span className={`text-notch${props.isLight}`}>
+                                {" "}
+                                top-notch
+                            </span>{" "}
+                            code or just want to chat about the latest and
+                            greatest in the
+                            <span
+                                className={`text-tech font-italic font-bold font-4${props.isLight}`}
+                            >
+                                {" "}tech{" "}
+                            </span>
+                            world, don't hesitate to reach out!
                         </p>
                     </div>
                 </div>

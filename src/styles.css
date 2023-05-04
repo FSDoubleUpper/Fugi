@@ -14,15 +14,23 @@
 .app {
     display: grid;
     grid-template-areas:
-    "header"
-    "cont"
-    "footer";
+        "header"
+        "cont"
+        "footer";
     grid-template-rows: 10vh minmax(0, 1fr) 10vh;
-    min-height: 100vh;
+    min-height: 102vh;
+    width: 102vw;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
 }
 
 .nav {
     grid-area: header;
+    background-color: rgb(38, 70, 70);
+    z-index: 2;
 }
 .choice,
 .cont {
@@ -51,12 +59,16 @@ p a.light-mode {
     color: blue;
 }
 
+.store-info p {
+    margin: 10px;
+}
+
 .nav-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: bolder;
-    width: 100vw;
+    width: 102vw;
     font-size: 1rem;
 }
 .nav-links-left {
@@ -103,7 +115,7 @@ p a.light-mode {
 }
 
 .light-mode {
-    color: rgb(80, 60, 34);
+    color: #3a2912;
     background-color: tan;
 }
 
@@ -238,7 +250,7 @@ figcaption.light-mode {
 .about-intro2,
 .about-intro4 {
     font-size: 2rem;
-    background-color: #84bfb9;
+    background-color: #006eb3;
     color: white;
     display: flex;
     align-items: center;
@@ -257,9 +269,13 @@ figcaption.light-mode {
     margin: auto;
 }
 
+.intro {
+    font-style: italic;
+}
+
 .about-intro3,
 .about-intro5 {
-    background-color: #f2d49b;
+    background-color: #ffbb00;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -275,16 +291,17 @@ figcaption.light-mode {
     left: 50%;
     font-family: arial;
     justify-content: center;
-    background-color: white;
+    background-color: black;
     font-family: "Dongle", sans-serif;
-    color: #96c7c4;
+    color: white;
     font-weight: bolder;
     letter-spacing: 1px;
     word-spacing: 2px;
     padding: 10%;
 }
 
-.about-intro6.light-mode p {
+.about-intro6.light-mode {
+    background-color: white;
     color: black;
 }
 
@@ -301,7 +318,6 @@ figcaption.light-mode {
 }
 
 .about-intro.light-mode {
-    background-color: white;
     color: black;
 }
 
@@ -327,7 +343,58 @@ figcaption.light-mode {
     text-align: left;
 }
 
+.font-2 {
+    font-size: 2rem;
+}
+
+.font-4 {
+    font-size: 4rem;
+}
+
+.clr-white {
+    color: white;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-bolder {
+    font-weight: bolder;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.text-name,
+.text-code,
+.text-notch {
+    color: #ffff00;
+}
+.text-fsd,
+.text-camera,
+.text-tech {
+    color: #94ffef;
+}
+.text-notch.light-mode,
+.text-tech.light-mode {
+    background-color: white;
+}
+.text-location {
+    color: #ffe8b8;
+}
+.text-superpower,
+.text-world,
+.text-tech.light-mode,
+.text-notch.light-mode {
+    color: #00567a;
+}
+
 @media only screen and (min-width: 600px) {
+    :root {
+        overflow-x: hidden;
+    }
     .main {
         align-items: normal;
         font-size: 1.5rem;
@@ -367,6 +434,10 @@ figcaption.light-mode {
     a {
         color: #6c4f14;
         text-decoration: none;
+    }
+
+    .app {
+        width: 100vw;
     }
 
     .nav-links-left.light-mode a:hover {
