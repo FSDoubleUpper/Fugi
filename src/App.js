@@ -20,14 +20,14 @@ function App() {
     const isLight = light ? " light-mode" : "";
 
     return (
-        <div className={`app main${isLight}`}>
+        <div className={`app ${isLight}`}>
             <Nav
                 theme={light}
                 isLight={isLight}
                 handleLight={handleLight}
-                className="nav"
+                className="header"
             />
-            <div className="choice">
+            <div className="cont">
                 <Routes>
                     <Route
                         path="/"
@@ -81,12 +81,13 @@ function App() {
                     />
                 </Routes>
             </div>
-            <Footer
-                className="footer"
-                theme={light}
-                isLight={isLight}
-                handleLight={handleLight}
-            />
+            <footer className="footer">
+                <Footer
+                    theme={light}
+                    isLight={isLight}
+                    handleLight={handleLight}
+                />
+            </footer>
         </div>
     );
 }

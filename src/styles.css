@@ -14,20 +14,28 @@
 .app {
     display: grid;
     grid-template-areas:
-        "nav"
-        "body"
-        "footer";
-    grid-template-rows: 10vh 1fr 10vh;
+    "header"
+    "cont"
+    "footer";
+    grid-template-rows: 10vh minmax(0, 1fr) 10vh;
+    min-height: 100vh;
 }
 
 .nav {
-    grid-area: nav;
+    grid-area: header;
 }
-.choice {
-    grid-area: body;
+.choice,
+.cont {
+    grid-area: cont;
+    grid-template-rows: 1fr;
 }
 .footer {
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
 }
 
 a {
@@ -111,7 +119,7 @@ p a.light-mode {
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
-    font-size: .75rem;
+    font-size: 0.75rem;
 }
 
 .main h1 {
@@ -143,8 +151,6 @@ p a.light-mode {
     width: 50%;
     margin: 25px 0;
 }
-
-
 
 .choices-list {
     display: flex;
@@ -299,13 +305,6 @@ figcaption.light-mode {
     color: black;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
 .footer-note {
     margin-top: 50px;
 }
@@ -329,9 +328,6 @@ figcaption.light-mode {
 }
 
 @media only screen and (min-width: 600px) {
-    .app {
-
-    }
     .main {
         align-items: normal;
         font-size: 1.5rem;
