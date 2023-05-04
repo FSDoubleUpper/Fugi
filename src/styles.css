@@ -18,8 +18,8 @@
         "cont"
         "footer";
     grid-template-rows: 10vh minmax(0, 1fr) 10vh;
-    min-height: 102vh;
-    width: 102vw;
+    min-height: 100vh;
+    width: 100vw;
 }
 
 .sticky {
@@ -68,7 +68,7 @@ p a.light-mode {
     align-items: center;
     justify-content: space-between;
     font-weight: bolder;
-    width: 102vw;
+    width: 100vw;
     font-size: 1rem;
 }
 .nav-links-left {
