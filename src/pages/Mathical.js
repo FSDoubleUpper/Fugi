@@ -37,6 +37,7 @@ const Mathical = (props) => {
                     <a
                         href="https://github.com/FSDoubleUpper/Mathical"
                         target="_blank"
+                        className={`${props.isLight}`}
                     >
                         here
                     </a>{" "}
