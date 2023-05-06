@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Mathical from "./pages/Mathical";
 import VendingMachine from "./pages/VendingMachine";
 import Iumienkind from "./pages/Iumienkind";
-import FEColors from './pages/FEColors';
+import FEColorz from './pages/FEColorz';
 
 import Nav from "./components/index/Nav";
 import PageChoices from "./components/index/PageChoices";
@@ -80,9 +80,9 @@ function App() {
                             />
                         }
                     /><Route
-                    path="/fecolors"
+                    path="/fecolorz"
                     element={
-                        <FEColors
+                        <FEColorz
                             theme={light}
                             isLight={isLight}
                             handleLight={handleLight}

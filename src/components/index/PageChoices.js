@@ -26,9 +26,9 @@ const PageChoices = (props) => {
                 isPageOnline={true}
             />
             <PageChoicesLinks
-                toPage="/fecolors"
-                title="FEColors"
-                imageBackground="./images/backgrounds/bg-fecolors.jpg"
+                toPage="/fecolorz"
+                title="FEColorz"
+                imageBackground="./images/backgrounds/bg-fecolorz.jpg"
                 imageAlt="FE colors background"
                 isPageOnline={true}
             />

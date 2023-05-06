@@ -59,7 +59,7 @@ p a.light-mode {
     color: blue;
 }
 
-.store-info p, .fecolors-info p {
+.store-info p, .fecolorz-info p {
     margin: 10px;
 }
 
@@ -159,7 +159,7 @@ p a.light-mode {
     margin-top: 10px;
 }
 
-.store-screenshot, .fecolors-screenshot {
+.store-screenshot, .fecolorz-screenshot {
     width: 50%;
     margin: 25px 0;
 }
