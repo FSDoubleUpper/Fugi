@@ -391,6 +391,28 @@ figcaption.light-mode {
     color: #00567a;
 }
 
+.play-button {
+    display: inline-block;
+    background-color: green;
+    padding: 25px;
+    margin: 25px;
+    font-weight: bold;
+    color: black;
+}
+.play-button:hover {
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+    box-shadow: 10px 10px black;
+    color: white;
+}
+.play-button:active {
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 2px 3px 4px black;
+    color: yellow;
+}
+
 @media only screen and (min-width: 600px) {
     :root {
         overflow-x: hidden;
@@ -407,28 +429,6 @@ figcaption.light-mode {
     }
     .nav-links-right {
         margin-right: 25px;
-    }
-
-    .play-button {
-        display: inline-block;
-        background-color: green;
-        padding: 25px;
-        margin: 25px;
-        font-weight: bold;
-        color: black;
-    }
-    .play-button:hover {
-        position: relative;
-        right: 5px;
-        bottom: 5px;
-        box-shadow: 10px 10px black;
-        color: white;
-    }
-    .play-button:active {
-        right: 0;
-        bottom: 0;
-        box-shadow: inset 2px 3px 4px black;
-        color: yellow;
     }
 
     a {

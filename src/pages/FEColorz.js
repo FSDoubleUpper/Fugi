@@ -1,18 +1,18 @@
 import React from "react";
 
-const FEColors = (props) => {
+const FEColorz = (props) => {
     return (
         <div className="main">
-            <h1>FEColors</h1>
-            <div className="fecolors-info">
+            <h1>FEColorz</h1>
+            <div className="fecolorz-info">
                 <img
-                    className="fecolors-screenshot"
-                    src="images\fecolors.png"
+                    className="fecolorz-screenshot"
+                    src="images\fecolorz.png"
                     alt="screenshot for F E Colors"
                 />
                 <div>
                     <a
-                        href="https://fecolors.netlify.app"
+                        href="https://fecolorz.netlify.app"
                         target="_blank"
                         className="play-button"
                     >
@@ -20,11 +20,11 @@ const FEColors = (props) => {
                     </a>
                 </div>
                 <p>
-                    FEColors is a web app that helps front-end developers who
+                    fecolorz is a web app that helps front-end developers who
                     have road blocks on font color and background color
                     combination.
                     <br />
-                    FEColors assist by generating random colors for font and
+                    fecolorz assist by generating random colors for font and
                     background as well as allowing an editable custom text for
                     better visualization.
                     <br />
@@ -32,7 +32,7 @@ const FEColors = (props) => {
                 <br />
                 <br />
                 <p>features for:</p>
-                <ul className="fecolors-list">
+                <ul className="fecolorz-list">
                     <li>custom text edit</li>
                     <li>randomize color font text</li>
                     <li>randomize color for background</li>
@@ -45,4 +45,4 @@ const FEColors = (props) => {
     );
 };
 
-export default FEColors;
+export default fecolorz;
