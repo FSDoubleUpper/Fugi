@@ -12,7 +12,7 @@ const FEColors = (props) => {
                 />
                 <div>
                     <a
-                        href="https://illustrious-blini-92e7a7.netlify.app"
+                        href="https://fecolors.netlify.app"
                         target="_blank"
                         className="play-button"
                     >
