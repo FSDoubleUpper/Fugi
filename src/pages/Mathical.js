@@ -16,6 +16,7 @@ const Mathical = (props) => {
             <div>
                 <a
                     href="https://leafy-peony-78891d.netlify.app//"
+                    target="_blank"
                     className="play-button"
                 >
                     CLICK HERE to PLAY

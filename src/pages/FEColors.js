@@ -8,11 +8,12 @@ const FEColors = (props) => {
                 <img
                     className="fecolors-screenshot"
                     src="images\fecolors.png"
-                    alt=""
+                    alt="screenshot for F E Colors"
                 />
                 <div>
                     <a
                         href="https://illustrious-blini-92e7a7.netlify.app/"
+                        target="_blank"
                         className="play-button"
                     >
                         CLICK HERE to USE
