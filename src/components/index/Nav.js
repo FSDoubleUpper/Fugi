@@ -5,7 +5,7 @@ import SocialLinks from "./SocialLinks";
 const Nav = (props) => {
     return (
         <div className={`nav nav-wrapper${props.isLight} sticky`}>
-            <nav className={`nav-links-left${props.isLight}`}>
+            <nav className={`nav-links-left${props.isLight}`}>  
                 <Link to="/" className={`nav-home${props.isLight}`}>
                     HOME
                 </Link>

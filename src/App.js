@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Mathical from "./pages/Mathical";
 import VendingMachine from "./pages/VendingMachine";
 import Iumienkind from "./pages/Iumienkind";
+import FEColors from './pages/FEColors';
 
 import Nav from "./components/index/Nav";
 import PageChoices from "./components/index/PageChoices";
@@ -31,6 +32,16 @@ function App() {
                 <Routes>
                     <Route
                         path="/"
+                        element={
+                            <PageChoices
+                                theme={light}
+                                isLight={isLight}
+                                handleLight={handleLight}
+                            />
+                        }
+                    />
+                    <Route
+                        path="/index.html"
                         element={
                             <PageChoices
                                 theme={light}
@@ -68,7 +79,16 @@ function App() {
                                 handleLight={handleLight}
                             />
                         }
-                    />
+                    /><Route
+                    path="/fecolors"
+                    element={
+                        <FEColors
+                            theme={light}
+                            isLight={isLight}
+                            handleLight={handleLight}
+                        />
+                    }
+                />
                     <Route
                         path="/about"
                         element={

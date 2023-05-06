@@ -7,8 +7,8 @@
 :root {
     font-family: "Barlow Condensed", "Segoe UI", Tahoma, Geneva, Verdana,
         sans-serif;
-    color: tan;
-    background-color: rgb(38, 70, 70);
+    color: #d2b48c;
+    background-color: #264646;
 }
 
 .app {
@@ -59,7 +59,7 @@ p a.light-mode {
     color: blue;
 }
 
-.store-info p {
+.store-info p, .fecolors-info p {
     margin: 10px;
 }
 
@@ -116,7 +116,7 @@ p a.light-mode {
 
 .light-mode {
     color: #3a2912;
-    background-color: tan;
+    background-color: #d2b48c;
 }
 
 .nav-title {
@@ -159,7 +159,7 @@ p a.light-mode {
     margin-top: 10px;
 }
 
-.store-screenshot {
+.store-screenshot, .fecolors-screenshot {
     width: 50%;
     margin: 25px 0;
 }
