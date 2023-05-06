@@ -45,4 +45,4 @@ const FEColorz = (props) => {
     );
 };
 
-export default fecolorz;
+export default FEColorz;
