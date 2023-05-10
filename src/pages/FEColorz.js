@@ -34,7 +34,7 @@ const FEColorz = (props) => {
                     </p>
                     <br />
                     <br />
-                    <p>features:</p>
+                    <p>Features:</p>
                     <ul className="fecolorz-list">
                         <li>custom text edit</li>
                         <li>randomize color font text</li>
