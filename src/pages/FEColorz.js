@@ -23,11 +23,11 @@ const FEColorz = (props) => {
                 </div>
                 <summary>
                     <p>
-                        fecolorz is a web app that helps front-end developers
+                        FEColorz is a web app that helps front-end developers
                         who have road blocks on font color and background color
                         combination.
                         <br />
-                        fecolorz assist by generating random colors for font and
+                        FEColorz assist by generating random colors for font and
                         background as well as allowing an editable custom text
                         for better visualization.
                         <br />
