@@ -4,7 +4,7 @@
 <p align="left">
 -   🔭 I’m currently working on **LensFinder**
 <br>
--   👨‍💻 All of my projects are available [github.com/FSDoubleUpper](HERE)
+-   👨‍💻 All of my projects are available [github.com/FSDoubleUpper](github.com/FSDoubleUpper)
 </p>
 
 <br><br>
