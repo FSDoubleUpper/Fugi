@@ -21,7 +21,7 @@ const FEColorz = (props) => {
                         CLICK HERE to USE
                     </a>
                 </div>
-                <summary>
+                <section>
                     <p>
                         FEColorz is a web app that helps front-end developers
                         who have road blocks on font color and background color
@@ -34,7 +34,7 @@ const FEColorz = (props) => {
                     </p>
                     <br />
                     <br />
-                    <p>features for:</p>
+                    <p>features:</p>
                     <ul className="fecolorz-list">
                         <li>custom text edit</li>
                         <li>randomize color font text</li>
@@ -43,7 +43,7 @@ const FEColorz = (props) => {
                         <li>provide Hex code</li>
                         <li>easily click on code to copy to clipboard</li>
                     </ul>
-                </summary>
+                </section>
             </section>
         </main>
     );
