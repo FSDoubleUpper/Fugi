@@ -32,13 +32,13 @@ const PageChoices = (props) => {
                 imageAlt="FE colors background"
                 isPageOnline={true}
             />
-            <PageChoicesLinks
+            {/* <PageChoicesLinks
                 toPage="/"
                 title="Lens Finder"
                 imageBackground="./images/backgrounds/bg-photography.jpg"
                 imageAlt="photography background"
                 isPageOnline={false}
-            />
+            /> */}
         </div>
     );
 };
